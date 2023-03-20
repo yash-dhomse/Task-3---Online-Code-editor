@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  background: white;
+  width: 100vw;
+  height: 95vw;
+  display: inline-flex;
+}
+#editor-textarea {
+  width: 100%;
+  height: 95%;
+  margin: 10px;
+  padding: 10px;
+  background: black;
+  padding: 10px;
+  color: #fff;
+  font-family: "Times New Roman", Times, serif;
+}
+h2 {
+  text-align: center;
+  padding: 10px;
+  background: aqua;
+  font-family: "Times New Roman", Times, serif;
+}
+h2 a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 10px;
+  color: antiquewhite;
+}
+#viewer {
+  background: #fff;
+  border: none;
+  width: 100%;
+  height: 95%;
+  margin: 10px;
+  border: 1px solid aqua;
+}
